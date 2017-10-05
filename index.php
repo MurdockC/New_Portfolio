@@ -22,7 +22,8 @@
   <div class="w_1200">
     <div class="gallery m-l pt-xl">
         <div class="gallery_Item m-l jcc aic">
-            <div class="title">Marvin Keller</div>
+					<img src="/assets/images/dist/1.png">
+          <div class="title">Marvin Keller</div>
         </div>
           <div class="gallery_Item m-l jcc aic">
             <div class="title">Project Two</div>
