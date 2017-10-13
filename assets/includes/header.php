@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 		<script type="text/javascript">
+
+		//change this to not use an html event handler
 				function doThis() {
 						var hidden = document.getElementById('mobile-hide');
 						var menu = document.getElementById('thisContent');
