@@ -9,8 +9,6 @@
 // State Rules "states of the modules"
 // Responsive
 
-
-
 $primary-color: #8E754E  ; //#F3CE66
 $secondary-color: #FF7B56 ;
 $black: #1F1F1F ;
@@ -134,7 +132,6 @@ img {
   }
 }
 
-
 // may not need this
 .gallery_Item:before {
 	content: '';
@@ -172,8 +169,6 @@ img {
   color: $primary-color;
   align-items: center;
 }
-
-
 
 .column {
   flex-direction: column;
