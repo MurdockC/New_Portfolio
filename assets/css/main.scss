@@ -18,14 +18,17 @@ $white: #FEFEFE;
 
 $base-unit: 12px;
 
+body{
+ max-width: 100vw;
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Raleway', serif;
   text-transform: uppercase;
   letter-spacing: .2em;
-  //border: 2px solid red;
+  max-width: 100%;
 }
-
 a {
   color: inherit;
   text-decoration: none;
@@ -33,6 +36,7 @@ a {
 
 // sub for body
 .flex {
+ display: flex;
 }
 
 .parent {
@@ -80,7 +84,7 @@ a {
 }
 
 .full_Width {
-  width: 100vw;
+  width: 100%;
 }
 .w_1200 {
   display: flex;
@@ -96,12 +100,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: 100%;
   justify-content: space-around;
+  margin-top: 50px;
   > div {
     // background-image: url("/assets/images/dist/1.png");
     background-position: 50% 50%;
     background-size: cover;
+    max-width: 300px;
   }
 }
 .gallery_Item {
@@ -111,17 +116,18 @@ a {
   height: 300px;
   transition: all .5s;
   img {
+   perspective: 800px;
     filter: grayscale(100%);
   height: 100%;
   width: 100%;
   position: absolute;
-  transform: rotatex(40deg) rotate(-30deg) rotatey(15deg);
+  transform: rotateX(50deg)  rotateY(10deg) rotateZ(-30deg);
   transition: all 2s;
   }
 }
 
 .gallery_Item:hover {
-transform:  translate(10px, -10px) skewX(0deg) scale(1.1,1.1);
+transform:  translate(10px, -10px) scale(1.1,1.1);
 img {
   filter: grayscale(0%);
   height: 100%;
@@ -146,6 +152,9 @@ img {
 .nav_Container {
   border-bottom: 2px solid $primary-color;
   position: fixed;
+  padding: 0px 20px;
+  top: 0;
+  left: 0;
   z-index: 100;
   box-shadow: 30px 30px 50px $black;
 }
@@ -168,6 +177,7 @@ img {
   display: flex;
   color: $primary-color;
   align-items: center;
+  font-size: 12px;
 }
 
 .column {
@@ -176,13 +186,13 @@ img {
 .title {
   position: absolute;
   font-size: 1.3em;
-  transform: rotate(-17deg) translate(-15px, -130px) skewX(5deg);
+  transform: rotate(-17deg) translate(-15px, -130px) ;
   color: $primary-color;
   transition: all .5s;
 }
 
 .gallery_Item:hover > .title {
-  transform:  translate(-85px, -155px) skewX(5deg) scale(1.1,1.1);
+  transform:  translate(-85px, -155px) scale(1.1,1.1);
 }
 
 .logo {
@@ -192,6 +202,8 @@ img {
 
 .about {
   color: $primary-color;
+  max-width: 800px;
+  font-size: 16px;
 }
 
 .gradient-text {
@@ -206,4 +218,15 @@ img {
   background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+.about_Portrait {
+ width: 50vw;
+ max-width: 300px;
+}
+
+.inverse {
+ color: $dark;
+ background-color: $primary-color;
 }

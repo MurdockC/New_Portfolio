@@ -25,12 +25,12 @@ gulp.task('image-min', function () {
 });
 
 gulp.task('php', function() {
-    php.server({ base: '../port', port: 8013, keepalive: true});
+    php.server({ base: '../new_portfolio', port: 8080, keepalive: true});
 });
 
 gulp.task('browser-sync',['php'], function() {
     browserSync({
-        proxy: '127.0.0.1:8013',
+        proxy: '127.0.0.1:8080',
         port: 8080,
         open: true,
         notify: false
