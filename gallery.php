@@ -7,59 +7,50 @@
 ?>
 <header>
 
-<div class="parent">
-<div class="full_Width container center jcc nav_Container">
-  <div class="w_1200 nav">
-  <a href="/index.php"><img class="logo" src="/assets/images/dist/logo-gold.png"></a>
-    <div class="button_Container">
-			<a href="/gallery.php"><div class="button mx-s p-s">Gallery</div></a>
-			<a href="about.php"><div class="button mx-s p-s">About</div></a>
-			<a href="contact.php"><div class="button mx-s p-s">Contact</div></a>
-  </div>
-  </div>
-</div>
-<div class=" full_Width container jcc p-l">
-  <div class="w_1200">
-    <div class="gallery m-l pt-xl">
-        <div class="gallery_Item m-l jcc aic">
-					<img src="/assets/images/dist/1.png">
-          <div class="title">Marvin Keller</div>
+<div class="container--Height100">
+
+<div class=" container--Width100 container jc--c p-l">
+  <div class="container--1200">
+    <div class="gallery margin--lg">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
+					     <img src="/assets/images/dist/1.png">
+           <div class="project__Title">Marvin Keller</div>
         </div>
-          <div class="gallery_Item m-l jcc aic">
-						<img src="/assets/images/dist/1.png">
-            <div class="title">Project Two</div>
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
+						     <img src="/assets/images/dist/1.png">
+           <div class="project__Title">Project Two</div>
         </div>
-        <div class="gallery_Item m-l jcc aic">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-            <div class="title">Project Three</div>
+            <div class="project__Title">Project Three</div>
         </div>
-        <div class="gallery_Item m-l jcc aic">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-            <div class="title">Project Four</div>
+            <div class="project__Title">Project Four</div>
         </div>
-        <div class="gallery_Item m-l jcc aic">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-            <div class="title">Project Five</div>
+            <div class="project__Title">Project Five</div>
         </div>
-        <div class="gallery_Item m-l jcc aic">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-          <div class="title">Project Six</div>
+          <div class="project__Title">Project Six</div>
       	</div>
-				<div class="gallery_Item m-l jcc aic">
+				<div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-            <div class="title">Project Seven</div>
+            <div class="project__Title">Project Seven</div>
         </div>
-        <div class="gallery_Item m-l jcc aic">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-            <div class="title">Project Eight</div>
+            <div class="project__Title">Project Eight</div>
         </div>
-        <div class="gallery_Item m-l jcc aic">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-            <div class="title">Project Nine</div>
+            <div class="project__Title">Project Nine</div>
         </div>
-        <div class="gallery_Item m-l jcc aic">
+        <div class="gallery__Project--container margin--lg jc--c ai--c">
 					<img src="/assets/images/dist/1.png">
-          <div class="title">Project Ten</div>
+          <div class="project__Title">Project Ten</div>
       	</div>
       </div>
   </div>
